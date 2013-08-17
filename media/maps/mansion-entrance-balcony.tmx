@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="48" height="16" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="music" value="the_mansion"/>
+  <property name="music_loop" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="collisions" tilewidth="16" tileheight="16">
+  <image source="tiles/collisions.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="mansion" tilewidth="16" tileheight="16">
+  <image source="tiles/mansion.png" width="512" height="448"/>
+ </tileset>
+ <layer name="Background" width="48" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6BqnX8RF3JIWDVVVfXFA796JhA=
+  </data>
+ </layer>
+ <layer name="Ground" width="48" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxrYmBgaCIBNzOMglEwfIATkdh5oBxIACQRiZMHyoEEACnu7xggN+IDpLg/c4DciA+guzMTinG5f7DFQSYZeDABctw/mOKAHPcT64dOMvSQCsh1PyH3oLudVn4gx92BgwiTG/aFgwQPdfcDAPYAc7g=
+  </data>
+ </layer>
+ <layer name="Decorations" width="48" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztldcNwjAABc0EFLEHZQrzRVmEsghlFgahzUETA3D8RRZO7CfAAXHSfSSylbMtK8b8LsdK2Ls/r2GdOqBkbHCLO9zjIW2OxBkveMVb4haFGve9jg1sJr77VpjTprmDXaH9JHzPGq3Tx4DuIY6E/qp4Xnn9sWub0DDFmdDSCpjj9hTtf2z/goYlroT+fmC/dZ7zxn6SceCafXtuHYvG+1D/i/OIM8s2PWvO0hN73k1Rd1n51u4HdyX+G9M=
+  </data>
+ </layer>
+ <layer name="Superior" width="48" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztw7ENAAAIA6D+/44Punc3LpCQwI2pAAD8W/NuAs0=
+  </data>
+ </layer>
+ <layer name="High" width="48" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAC8GDAAAAQ==
+  </data>
+ </layer>
+ <layer name="Collisions" width="48" height="16" opacity="0.41">
+  <data encoding="base64" compression="zlib">
+   eJztkrENADAIw8LQ/1/u1AMIqnArLLE7CSEpkkeB5OIw/r28+veHjNMP/uuWiEm2U9oGjj9pA6dP0gauP2UDt0tKhsovEDJU/Qk39LIBP4IAaQ==
+  </data>
+ </layer>
+ <objectgroup draworder="topdown" name="Objects" width="48" height="16">
+  <object name="ClassicTeleporter" type="Teleporters" x="0" y="16" width="16" height="48">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="id" value="0"/>
+    <property name="to_id" value="1"/>
+    <property name="to_map" value="mansion-entrance"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="192" y="16" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="112" y="16" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="Text" type="Gameplay" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="text" value="landslide"/>
+   </properties>
+  </object>
+  <object name="TorchLight" type="Decorations" x="368" y="144" width="16" height="64"/>
+  <object name="TorchLight" type="Decorations" x="432" y="144" width="16" height="64"/>
+  <object name="SmallLight" type="Decorations" x="368" y="160" width="16" height="16"/>
+  <object name="SmallLight" type="Decorations" x="432" y="160" width="16" height="16"/>
+  <object name="Text" type="Gameplay" x="400" y="192" width="16" height="16">
+   <properties>
+    <property name="text" value="spartan"/>
+   </properties>
+  </object>
+  <object name="Chest" type="Gameplay" gid="429" x="448" y="208">
+   <properties>
+    <property name="contains" value="key"/>
+    <property name="name" value="mansion-entrance-balcony-spartan-treasure"/>
+    <property name="value" value="mansion-entrance-spartan-treasure-key"/>
+   </properties>
+  </object>
+  <object name="ConeLight" type="Decorations" x="624" y="128" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="Chest" type="Gameplay" gid="429" x="640" y="208">
+   <properties>
+    <property name="contains" value="coins"/>
+    <property name="count" value="42"/>
+    <property name="name" value="mansion-entrance-balcony-coin-treasure"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

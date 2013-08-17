@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="10" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="music" value="the_mansion"/>
+  <property name="music_loop" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="collisions" tilewidth="16" tileheight="16">
+  <image source="tiles/collisions.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="mansion" tilewidth="16" tileheight="16">
+  <image source="tiles/mansion.png" width="512" height="448"/>
+ </tileset>
+ <layer name="Background" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYcByITwwg/RyIXwwgzc7IwMDBOHC0OhBrDCDtDsQeA0inA3HGANLtQNwxgPRIBwBPR2Mx
+  </data>
+ </layer>
+ <layer name="Ground" width="32" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxrYmBgaBpAPApGwSgYOOA0wDhpgDEAw4okwQ==
+  </data>
+ </layer>
+ <layer name="Decorations" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzt0ksOgjAUheHbgjyWochr/ytRAccooOzCP4ERg7YDBx30JF+a5tzcTiriT0Yl8sIbkzLPzvQLPvhiNcy77lVaRCNCrM3vn+gTpMiQG+Zd957pLihwtbxf0leo0aD9094QP/Pk395wR4fHfnaHe49BbfMh9vwAl9AYug==
+  </data>
+ </layer>
+ <layer name="Superior" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCVwnZEwexQQBwAvKgKJ
+  </data>
+ </layer>
+ <layer name="High" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <layer name="Collisions" width="32" height="10" opacity="0.41">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBxgPFBg1P5R+0ftH5l5HwYA3BwATw==
+  </data>
+ </layer>
+ <objectgroup draworder="topdown" name="Objects" width="32" height="10">
+  <object name="Door" type="Teleporters" x="32" y="80" width="32" height="48">
+   <properties>
+    <property name="id" value="0"/>
+    <property name="to_id" value="0"/>
+    <property name="to_map" value="mansion-entrance"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="48" y="48" width="64" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="400" y="48" width="64" height="16"/>
+  <object name="SmallLight" type="Decorations" x="84" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="96" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="44" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="60" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="436" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="448" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="396" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="412" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="MediumLight" type="Decorations" x="256" y="48" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="225" y="48" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="286" y="48" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="176" y="112" width="176" height="16">
+   <properties>
+    <property name="solid" value="1"/>
+   </properties>
+  </object>
+  <object name="Candle" type="Decorations" x="192" y="96" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="Candle" type="Decorations" x="320" y="96" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

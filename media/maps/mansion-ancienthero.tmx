@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="63" height="15" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="effect" value="flipped_vertically"/>
+  <property name="music" value="the_mansion"/>
+  <property name="music_loop" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="collisions" tilewidth="16" tileheight="16">
+  <image source="tiles/collisions.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="mansion" tilewidth="16" tileheight="16">
+  <image source="tiles/mansion.png" width="512" height="448"/>
+ </tileset>
+ <layer name="Background" width="63" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi54CUQvxqhNCcjAwMX48ikCQFKw5YSMJB2gwCtw3Yw2P0UiJ8B8WMgfkIH/mCxe6DtH/X7qN9H/T7q91G/j/qdln4fBSMLAADS3Op7
+  </data>
+ </layer>
+ <layer name="Ground" width="63" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxrYmBgaBqheBSMTOCEBztTwXxHAnYMpN1JQOzCgD0/NFPB/kYcZrsOArtBOJkK9pAKEgeB3QNt/6jfB8bugbZ/1O8DY/dA208ruzOJsHs4+r2TYWT6HeZvEO4gYDcIpzCQ1/aiBKcOArtHMgYAogd4WQ==
+  </data>
+ </layer>
+ <layer name="Decorations" width="63" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztkssJAjEQhrMW4AsVtAq1iuxNrUJvaiVqF1bievNViIoKevI/7IKEZJMx2ewlP3wEwjDfDAxjISHycMK/qtalW+dwNcNUgEv+MmJJjQt31i9mci9XzGWbPKe4swxbN9XncvcQdc7g4tl5AEdwKsl/BTdwBw/PbtHvO/WIsQZoglZUrt821Qqtvg/nAAz/cNcEF9Vt67fNCM4xmBTgfqPnR9O3SL8q29Q1x7sASwP3EzUvwoxd3EFPcwt5/pm5ipR96lrhXYONwU5t7NEh3PUOPRNNX4o/JOQ3X6YvOGk=
+  </data>
+ </layer>
+ <layer name="Superior" width="63" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6D3z2NAW9y5QQIS4LO5DgAAQNECyy0AtQ==
+  </data>
+ </layer>
+ <layer name="High" width="63" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAADgwwAOxAAB
+  </data>
+ </layer>
+ <layer name="Collisions" width="63" height="15" opacity="0.41">
+  <data encoding="base64" compression="zlib">
+   eJzt10EKACAIRNEJ6v5XjhZBq4pIPqiCu/A14MYiqQTuiJXZbXeC3Meb+ZRP29If5+VftE37mZ2xaT+zMzbtW9m7uZ6z18Ncr9ln7tHtYGt5S9wRpB25OogZAOw=
+  </data>
+ </layer>
+ <objectgroup draworder="topdown" name="Objects" width="63" height="15">
+  <object name="Door" type="Teleporters" x="48" y="160" width="32" height="48">
+   <properties>
+    <property name="id" value="0"/>
+    <property name="to_id" value="0"/>
+    <property name="to_map" value="mansion-entrance"/>
+   </properties>
+  </object>
+  <object name="Text" type="Gameplay" x="192" y="176" width="16" height="32">
+   <properties>
+    <property name="text" value="ancienthero"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="128" y="64" width="256" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="624" y="64" width="256" height="16"/>
+  <object name="Bouncer" type="Gameplay" x="848" y="160" width="16" height="16"/>
+  <object name="SmallLight" type="Decorations" x="464" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="528" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="32" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="Text" type="Gameplay" x="832" y="48" width="16" height="16">
+   <properties>
+    <property name="text" value="fallback"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="224" y="152" width="16" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="256" y="152" width="16" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="736" y="152" width="16" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="768" y="152" width="16" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="240" y="112" width="16" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="192" y="176" width="16" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="600" y="192" width="16" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="752" y="112" width="16" height="16"/>
+  <object name="Chest" type="Collectables" gid="429" x="928" y="208">
+   <properties>
+    <property name="contains" value="coins"/>
+    <property name="count" value="100"/>
+    <property name="name" value="ancienthero-coin-chest"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

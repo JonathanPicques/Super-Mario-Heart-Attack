@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="10" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="music" value="the_mansion"/>
+  <property name="music_loop" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="collisions" tilewidth="16" tileheight="16">
+  <image source="tiles/collisions.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="mansion" tilewidth="16" tileheight="16">
+  <image source="tiles/mansion.png" width="512" height="448"/>
+ </tileset>
+ <layer name="Background" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjY2RgYAZiFiBmBWI2KP8lA3H4IRaMzTxcfFzmcjISxvjcRax+XHKaRGBy9DNCMRNUPy51nkRgfPbg0oNsP3oYEmMnMtYkQ78iFCtB9RMTT9gwchiQgh2h2AnJD+RgcvVqodGkhjml2AuNhmFi8yu1+QMNAG4wRUc=
+  </data>
+ </layer>
+ <layer name="Ground" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxrYmBgaBpAPApGwSgYOOA0wDhpgDEAw4okwQ==
+  </data>
+ </layer>
+ <layer name="Decorations" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgc4CEjgv2EEVPuERA/ZkTIPURTQ4n5hAAjEwMDExAzAzELE2l60YEx0G4TIDYlwQ2KQDuVgFgZiFUotD8YaG8IEIeSGAbUAsVAe0uAuJQE+z8C1X4C4s9A/AWPPkLyIDAZKD8FiKeSYL8gMMyFgFgYiEWQwl8cyJZA4iPLrwSav4oKYXwZaMYVNHwZau5pIH2GEZMGgZNA+hQO+08PUNwPRgAAhrQhQw==
+  </data>
+ </layer>
+ <layer name="Superior" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <layer name="High" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <layer name="Collisions" width="32" height="10" opacity="0.41">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBxgPFBg1P5R+0ftH5l5HwYA3BwATw==
+  </data>
+ </layer>
+ <objectgroup draworder="topdown" name="Objects" width="32" height="10">
+  <object name="SmallLight" type="Decorations" x="140" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="156" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="180" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="192" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="144" y="48" width="64" height="16"/>
+  <object name="Door" type="Teleporters" x="32" y="80" width="32" height="48">
+   <properties>
+    <property name="id" value="0"/>
+    <property name="to_id" value="0"/>
+    <property name="to_map" value="mansion-entrance"/>
+   </properties>
+  </object>
+  <object name="Chest" type="Gameplay" gid="429" x="464" y="112">
+   <properties>
+    <property name="contains" value="key"/>
+    <property name="name" value="mansion-kitchen-diningroom-key"/>
+    <property name="value" value="mansion-entrance-diningroom-key"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="464" y="112" width="16" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="128" y="112" width="96" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="352" y="96" width="32" height="16"/>
+  <object name="Candle" type="Decorations" x="280" y="96" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="240" y="112" width="96" height="16"/>
+  <object name="Candle" type="Decorations" x="208" y="96" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="Candle" type="Decorations" x="368" y="80" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="Candle" type="Decorations" x="128" y="96" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="Portrait" type="Teleporters" x="448" y="32" width="48" height="64">
+   <properties>
+    <property name="id" value="0"/>
+    <property name="to_id" value="0"/>
+    <property name="to_map" value="mansion-kitchen-shadow"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

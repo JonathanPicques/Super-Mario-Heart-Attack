@@ -12,7 +12,7 @@
  </tileset>
  <layer name="Background" width="48" height="16">
   <data encoding="base64" compression="zlib">
-   eJztwwENAAAMw6BqnX8RF3JIWDVVVfXFA796JhA=
+   eJztzrkNgDAUBNH94mgEcGFunaMONkVGcvhlaYIXTDZVUh3YaZfd9vx09l/PFNJsi63RdvZfz+bH3Q4r0Xb2HwAAAL5e4J0lXA==
   </data>
  </layer>
  <layer name="Ground" width="48" height="16">
@@ -22,7 +22,7 @@
  </layer>
  <layer name="Decorations" width="48" height="16">
   <data encoding="base64" compression="zlib">
-   eJztldcNwjAABc0EFLEHZQrzRVmEsghlFgahzUETA3D8RRZO7CfAAXHSfSSylbMtK8b8LsdK2Ls/r2GdOqBkbHCLO9zjIW2OxBkveMVb4haFGve9jg1sJr77VpjTprmDXaH9JHzPGq3Tx4DuIY6E/qp4Xnn9sWub0DDFmdDSCpjj9hTtf2z/goYlroT+fmC/dZ7zxn6SceCafXtuHYvG+1D/i/OIM8s2PWvO0hN73k1Rd1n51u4HdyX+G9M=
+   eJzllVkOwiAURXEFDnEfDqvAL7Wr4M9hIw5r6UKc1qHVuACvCU3wKQXeh1C9yUkfzSM9QEiF+I0oTVmP9PPceO2j41SiSK3IuzokB1LX5Rn8c3ZgDw7gCE5xdVgpwBXcwD2yCyct3Pc26IBu5Lsv3S1v6cN5AIYM9wvje1LwPG2ZwHsKMoZ/k3leVf6ha5vDYQGWDJeexxzq49r/UP81HDZgy/Afe/pLMq7q/WZmnmu27bkkuPptyQN6zawCzsx0+uRsJtX/sss71dTV+5kH1M8gVQ==
   </data>
  </layer>
  <layer name="Superior" width="48" height="16">
@@ -54,7 +54,7 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="112" y="16" width="16" height="16">
+  <object name="SmallLight" type="Decorations" x="128" y="16" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>

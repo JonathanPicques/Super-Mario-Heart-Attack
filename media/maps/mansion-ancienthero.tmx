@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="63" height="15" tilewidth="16" tileheight="16">
  <properties>
-  <property name="effect" value="flipped_vertically"/>
+  <property name="effect" value="flipped_horizontally"/>
   <property name="music" value="the_mansion"/>
   <property name="music_loop" value="0"/>
  </properties>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="68" height="10" tilewidth="16" tileheight="16">
+<map version="1.0" orientation="orthogonal" width="68" height="31" tilewidth="16" tileheight="16">
  <properties>
   <property name="music" value="the_mansion"/>
   <property name="music_loop" value="0"/>
@@ -10,37 +10,37 @@
  <tileset firstgid="65" name="mansion" tilewidth="16" tileheight="16">
   <image source="tiles/mansion.png" width="512" height="448"/>
  </tileset>
- <layer name="Background" width="68" height="10">
+ <layer name="Background" width="68" height="31">
   <data encoding="base64" compression="zlib">
-   eJztlMcJwEAMBHU4NOLQiEP/PTjU4fkI/HPSmTvQwDz2uxIr4pzpg0iDLXYhv1xjgSVWBnnGAUecMsw7N11wxU08W/dr/W9/5y99ah9XpLQPsfZD+7hLKvsQYz+0j6eksA/W+6F9OM4bDjMOrgk=
+   eJzt00kRhFAUxdBHNWCkASMM/j0w6OC6SKr4iyyOgJxVdaU7Pen8uH9dVZ+GNHbN/zSlOS3NtaYt7eloxn+1mf7VZvpXm+lfbaZ/tZn+1Wb6V5vpX22mf7WZ/tVm+leb6V9tpn+1mf7VZvpXm+lfbaZ/tZn+1Wb6V5vpX22mf7WZ/tVm+leb6V9tpn+1mf7VZvpXm18a18JJ
   </data>
  </layer>
- <layer name="Ground" width="68" height="10">
+ <layer name="Ground" width="68" height="31">
   <data encoding="base64" compression="zlib">
-   eJxrYmBgaBrFcDwKRsEoGAXEgn4gdgRiJxzYGYj7Bsx19AWgsFgPxIlAnIQDJwPxOobhHyawsFjLQDg8QGqGc5gghwWh8EhhwJ2XhitOxRMeIx0DAEd5YnY=
+   eJztmFsSgjAMRcPSlJX4Woj4rytB96QbMX7gOEwhrbR5lNyZ898emtC0A4DO+bKmPBuAVyO9Co/Hdm7IBtkGaJGr3NLY83HxQHbIPsABuUN9Tqa+/8AJpn30UJ+TM8T9b8c+jjDvMRVr9Rc6IzmxVn8cPizVH5cPK044fXA5mbtPUJT2sbQ/p/Zj6j5hnZR+PLjoK/cRU2e/Ltbgg3Iy7hdT903rxPbj2PsnhfR+KUL9uA34yBXp/f57Zkolxxnj5lLEhMfj8djKklkrB5repzTMWlrep7TMWhrepzTNWtQ8JFHDkrMW9R4jtS6tvAFlxpHV
   </data>
  </layer>
- <layer name="Decorations" width="68" height="10">
+ <layer name="Decorations" width="68" height="31">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF5ICHjAwMj4D4MRA/YRx5+tEBIxMDAxMQMwMxC9PI048OFIFmKAGxMhCrkGHeUNS/hXRrRsEoGAUkAkrz2UDrHwWjgFgAACx0E5k=
+   eJzt2EEKwjAQheFJ9CJqL29XKl6ivYXVg/hAELvTJDhk+D94y0nDkEIyZihxS2aLclceqb/6lM2yslG2+ff61ut51+9Us1cOytCgH7XredeXuP7nMwCAzhx1TxkL7ipRTerFTD/ePvvR012ip70CQFRn5eK9iSBqZ0zRtJ6ZeTrZ61+pUTNj4mytRTpbLXjML78x8oZdmXnDAmEwy0BkT3SqIp4=
   </data>
  </layer>
- <layer name="Superior" width="68" height="10">
+ <layer name="Superior" width="68" height="31">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAODHAAqgAAE=
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAL4MIPAAAQ==
   </data>
  </layer>
- <layer name="High" width="68" height="10">
+ <layer name="High" width="68" height="31">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAODHAAqgAAE=
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAL4MIPAAAQ==
   </data>
  </layer>
- <layer name="Collisions" width="68" height="10" opacity="0.41">
+ <layer name="Collisions" width="68" height="31" opacity="0.41">
   <data encoding="base64" compression="zlib">
-   eJxjZGBgYBzFcDwKRsEoGAXEAiYGwmUK84C5jr6AiQS1wz1MSAkLGBiuYUJOWIDAQLcFRtsZAw8Af6UAlQ==
+   eJzt2EsOgCAMRdGC+9+zozoQRQwtLe07CTMH5MbwK0RUMK4BAPBHpf6acthNbbk6+F20JhL7S6QmEj2k9vRIXaWgSQtNWmjS0m7ydZ7weH/RWo9HzxO7G2mSpQXrNcnWgr01yfx28dQk83vQrvPWotnD+r0y038NACBp5q4V7X3K05nauomnFsyqiccW7N4EZ6e95rraCY+ZAVE=
   </data>
  </layer>
- <objectgroup draworder="topdown" name="Objects" width="68" height="10">
+ <objectgroup draworder="topdown" name="Objects" width="68" height="31">
   <object name="ClassicTeleporter" type="Teleporters" x="0" y="16" width="16" height="64">
    <properties>
     <property name="direction" value="left"/>
@@ -124,27 +124,27 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="928" y="48" width="64" height="16">
+  <object name="TroughPlatform" type="Collisions" x="928" y="32" width="64" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="924" y="40" width="16" height="16">
+  <object name="SmallLight" type="Decorations" x="924" y="24" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="940" y="40" width="16" height="16">
+  <object name="SmallLight" type="Decorations" x="940" y="24" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="964" y="40" width="16" height="16">
+  <object name="SmallLight" type="Decorations" x="964" y="24" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="976" y="40" width="16" height="16">
+  <object name="SmallLight" type="Decorations" x="976" y="24" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
@@ -154,19 +154,19 @@
     <property name="text" value="directions"/>
    </properties>
   </object>
-  <object name="Door" type="Teleporters" x="304" y="80" width="32" height="48">
+  <object name="Door" type="Teleporters" x="560" y="160" width="32" height="48">
    <properties>
     <property name="id" value="0"/>
     <property name="to_id" value="0"/>
     <property name="to_map" value="mansion-kitchen"/>
    </properties>
   </object>
-  <object name="Text" type="Gameplay" x="272" y="112" width="16" height="16">
+  <object name="Text" type="Gameplay" x="528" y="192" width="16" height="16">
    <properties>
     <property name="text" value="door1-kitchen"/>
    </properties>
   </object>
-  <object name="Door" type="Teleporters" x="560" y="80" width="32" height="48">
+  <object name="Door" type="Teleporters" x="272" y="416" width="32" height="48">
    <properties>
     <property name="id" value="1"/>
     <property name="locked" value="mansion-entrance-diningroom-key"/>
@@ -174,7 +174,7 @@
     <property name="to_map" value="mansion-diningroom"/>
    </properties>
   </object>
-  <object name="Text" type="Gameplay" x="528" y="112" width="16" height="16">
+  <object name="Text" type="Gameplay" x="320" y="448" width="16" height="16">
    <properties>
     <property name="text" value="door2-diningroom"/>
    </properties>
@@ -187,7 +187,7 @@
     <property name="to_map" value="mansion-entrance-balcony"/>
    </properties>
   </object>
-  <object name="Door" type="Teleporters" x="816" y="80" width="32" height="48">
+  <object name="Door" type="Teleporters" x="960" y="144" width="32" height="48">
    <properties>
     <property name="id" value="2"/>
     <property name="locked" value="mansion-entrance-spartan-treasure-key"/>
@@ -195,13 +195,83 @@
     <property name="to_map" value="mansion-ancienthero"/>
    </properties>
   </object>
-  <object name="Text" type="Gameplay" x="784" y="112" width="16" height="16">
+  <object name="Text" type="Gameplay" x="928" y="176" width="16" height="16">
    <properties>
     <property name="if_door" value="mansion-entrance-spartan-treasure-key"/>
     <property name="if_door_text" value="door3-spartan-treasure-opened"/>
     <property name="if_key" value="mansion-entrance-spartan-treasure-key"/>
     <property name="if_key_text" value="door3-spartan-treasure-haskey"/>
     <property name="text" value="door3-spartan-treasure-closed"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="880" y="144" width="32" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="208" y="360" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="196" y="360" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="172" y="360" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="156" y="360" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="160" y="368" width="64" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="1008" y="320" width="64" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="1060" y="312" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="1008" y="312" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="1024" y="312" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="1048" y="312" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="768" y="368" width="32" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="736" y="320" width="32" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="768" y="272" width="32" height="16">
+   <properties>
+    <property name="flare" value="1"/>
    </properties>
   </object>
  </objectgroup>

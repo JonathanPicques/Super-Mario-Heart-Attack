@@ -15,19 +15,29 @@
    eJztzrkNgDAUBNH94mgEcGFunaMONkVGcvhlaYIXTDZVUh3YaZfd9vx09l/PFNJsi63RdvZfz+bH3Q4r0Xb2HwAAAL5e4J0lXA==
   </data>
  </layer>
- <layer name="Ground" width="48" height="16">
+ <layer name="Down Decorations" width="48" height="16">
   <data encoding="base64" compression="zlib">
-   eJxrYmBgaCIBNzOMglEwfIATkdh5oBxIACQRiZMHyoEEACnu7xggN+IDpLg/c4DciA+guzMTinG5f7DFQSYZeDABctw/mOKAHPcT64dOMvSQCsh1PyH3oLudVn4gx92BgwiTG/aFgwQPdfcDAPYAc7g=
+   eJztwQEBAAAAgiD/r25IQAEAAC8GDAAAAQ==
   </data>
  </layer>
  <layer name="Decorations" width="48" height="16">
   <data encoding="base64" compression="zlib">
-   eJzllVkOwiAURXEFDnEfDqvAL7Wr4M9hIw5r6UKc1qHVuACvCU3wKQXeh1C9yUkfzSM9QEiF+I0oTVmP9PPceO2j41SiSK3IuzokB1LX5Rn8c3ZgDw7gCE5xdVgpwBXcwD2yCyct3Pc26IBu5Lsv3S1v6cN5AIYM9wvje1LwPG2ZwHsKMoZ/k3leVf6ha5vDYQGWDJeexxzq49r/UP81HDZgy/Afe/pLMq7q/WZmnmu27bkkuPptyQN6zawCzsx0+uRsJtX/sss71dTV+5kH1M8gVQ==
+   eJxjYBgeIAOKYWxPKP2OEVUdOn+wgAw0dgaa2FAAW4DYA8qGxcFIBheA+CIQXwLiy0B8ZWCdQxb4AMQfgfgTEH8ZYLeQAwSA+V0QiIWAWGSQ5n18wADoZkMgNiLD7e+p7xySQQDQ3YFAHESG+/kHQXwVAN1QCMRFZLhFfxC4fwLQDROBeBIZbvEfYPd3AnEmEu4gUX/+ALof3e3k+KF/EKSfUTC8AQC53hvC
+  </data>
+ </layer>
+ <layer name="Up Decorations" width="48" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAC8GDAAAAQ==
+  </data>
+ </layer>
+ <layer name="Ground" width="48" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztkbENwCAMBD0bmSArkMplViBNFmK/NKmQAPsbPxInXX9vFxEpDh/ZbGzURkaS0SMqcEI2ekUFTvD0v0GNIzz9GtQ4ou3U314/2w8UkAmkn+kHSD/TBrSfZQPSfRKJ3v4mcfX+D0/gcSI=
   </data>
  </layer>
  <layer name="Superior" width="48" height="16">
   <data encoding="base64" compression="zlib">
-   eJztw7ENAAAIA6D+/4//uXc3LpCQwI2pAAD8W0BtAtU=
+   eJzt0EEKACAIRFGPZ/e/ULQTKa1FOcE8cBG4+ClCRES3aXXABpU/OiNRP9rffE92f8R+de9oF9Hq5uom269km2bNVntSdC7rRvVr99ABK78JSg==
   </data>
  </layer>
  <layer name="High" width="48" height="16">

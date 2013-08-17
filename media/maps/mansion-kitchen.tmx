@@ -15,14 +15,24 @@
    eJxjY2RgYAZiFiBmBWI2KP8lA3H4IRaMzTxcfFzmcjISxvjcRax+XHKaRGBy9DNCMRNUPy51nkRgfPbg0oNsP3oYEmMnMtYkQ78iFCtB9RMTT9gwchiQgh2h2AnJD+RgcvVqodGkhjml2AuNhmFi8yu1+QMNAG4wRUc=
   </data>
  </layer>
- <layer name="Ground" width="32" height="10">
+ <layer name="Down Decorations" width="32" height="10">
   <data encoding="base64" compression="zlib">
-   eJxrYmBgaBpAPApGwSgYOOA0wDhpgDEAw4okwQ==
+   eJxjYBgFo2AUjIKRCQAFAAAB
   </data>
  </layer>
  <layer name="Decorations" width="32" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYBgc4CEjgv2EEVPuERA/ZkTIPURTQ4n5hAAjEwMDExAzAzELE2l60YEx0G4TIDYlwQ2KQDuVgFgZiFUotD8YaG8IEIeSGAbUAsVAe0uAuJQE+z8C1X4C4s9A/AWPPkLyIDAZKD8FiKeSYL8gMMyFgFgYiEWQwl8cyJZA4iPLrwSav4oKYXwZaMYVNHwZau5pIH2GEZMGgZNA+hQO+08PUNwPRgAAhrQhQw==
+  </data>
+ </layer>
+ <layer name="Up Decorations" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <layer name="Ground" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxrYmBgaBpAPApGwSgYOOA0wDhpgDEAw4okwQ==
   </data>
  </layer>
  <layer name="Superior" width="32" height="10">

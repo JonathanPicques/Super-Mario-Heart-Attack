@@ -102,5 +102,10 @@
     <property name="name" value="ancienthero-coin-chest"/>
    </properties>
   </object>
+  <object name="Mario" type="Mario" x="96" y="176" width="16" height="32">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

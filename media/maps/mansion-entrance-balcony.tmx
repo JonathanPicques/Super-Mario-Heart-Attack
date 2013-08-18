@@ -102,5 +102,10 @@
     <property name="name" value="mansion-entrance-balcony-coin-treasure"/>
    </properties>
   </object>
+  <object name="Mario" type="Mario" x="32" y="32" width="16" height="32">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

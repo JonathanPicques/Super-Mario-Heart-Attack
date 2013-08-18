@@ -117,5 +117,10 @@
     <property name="to_map" value="mansion-kitchen-shadow"/>
    </properties>
   </object>
+  <object name="Mario" type="Mario" x="80" y="96" width="16" height="32">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

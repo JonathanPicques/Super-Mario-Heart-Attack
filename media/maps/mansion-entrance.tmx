@@ -47,7 +47,7 @@
  </layer>
  <layer name="Collisions" width="68" height="40" opacity="0.41">
   <data encoding="base64" compression="zlib">
-   eJztmEsOgzAMBQO9/50rFqnqtA1O8Re/kbyDEI2E/ZKttbahXgUAACvsbd5THn5bM2dnPnc3JxLz5U5OJHxIzfQsXi3zRwYn1nksuhOPfBrZiVde13Zylicinl+0+jE3T2SH46SKi87MSTUXnV9OKt9dfHNS+T5Ia9/w8blu1tIg8z+jAXxQ4IMCHxQPH9yz1rhHyZplOksf3Ew9+tBgluksWDlfWPg4GJ1Y+Vg9a1n5OHh3EjU7Wfro34g8W6x9RKeyD+15m42r/UV6bW/ggwIflH99oH9ceycLVeZGVp5zrQGt
+   eJztmMEOhCAMRFH//583HjALq1hWOrR2XtKbInmJdMqSUlpYRxFCSA9rap8p27ytwVmFz73NyYj+8iYnI3yM6ulevCLzhwcn6Dxm3cmMfGrZyay8ru3kLk9YnF+0zmNpnvCOxEkUF5mWk2guMldOIt9dnDmJfB+ktW/6+F3Xa2ng+Z/RgD5K6KOEPkpm+JDOWvUeR1Yr0yF9SDN17UODVqZD0DNfIHzs1E5QPnpnLZSPnW8nVrMT0kf+huXegvZhncg+tPutNzT3TB+4tbWgj5J/+zHPj2fveCFK3/DKB2KpAao=
   </data>
  </layer>
  <objectgroup draworder="topdown" name="Objects" width="68" height="40" opacity="0.9">
@@ -311,6 +311,11 @@
     <property name="locked" value="mansion-garden-secret-key"/>
     <property name="to_id" value="0"/>
     <property name="to_map" value="mansion-garden-secret"/>
+   </properties>
+  </object>
+  <object name="Mario" type="Mario" x="32" y="48" width="16" height="32">
+   <properties>
+    <property name="direction" value="0"/>
    </properties>
   </object>
  </objectgroup>

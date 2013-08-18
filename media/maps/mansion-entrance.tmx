@@ -17,22 +17,22 @@
  </layer>
  <layer name="Down Decorations" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt0DERADAIBEG0RUr8i6CA5jWwO3MGrgoAAAAAAADueRvjbww/kh/Jj+QHAMBNDZd6BFk=
+   eJzt0LENACAIAEFmcxT3H8ICGjoLCxPukl/gIwAAAAAAAGCeVZF2RfKj86Pzo/MD3tkXTeJH5wfwmwNr8A6v
   </data>
  </layer>
  <layer name="Decorations" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt2NsNwjAMhWG3sAiXYTpKNwP6BIgdgG7BZRAOQkLtW2miRjH/J/nRaWK5UmIzjHErzO6Kh+JZ5JdflGalYqaYl7/nx14vdf5COUvFSrGOUI/Q9VLnj3Ga5jMAgMzsdE9pRtxVvLqqFi31+OrWI6e7RE57BQCvDopj6k04ETpj8ib2zCylvX3+lRAhMyZ6q89Tb8Uw9fxyox7cDujD5k/esGed8TLgnC1vWMCNWLOMSlFHWsuD2qhHF/Xoe9eiSr0JAACACbwA6bMogA==
+   eJztmEcOwjAQRZ3AJWBHOUyOwrXoZUETF6CXW1DW7GHFR0ghkdg4sWI8+U96m0jj2JNJYo9SJAlnT6kLvMKb51685yvlwwIs+vrxpsezHV9BTBXWYN1APtKOZzs+CYtsbkMIIcQxhtinjBLsVaRyRC5OzEdINB8u7SVcmishhEhlBue2JyGEtD0maZjumdlkqj7vShrS9JhYW3Ek1ZYJsupfTlB7U436Gwk/w+6xtoPG+k48wxILNFFzLdiGHdiHA9iFvRzW4xJrXsE13Hjf93gLdxr5MNXLCGDD0FgSaCjmIwrzEeedi8D2JMjfcf/x7Y5eG+fwX0fiPFADz4R1oLvfd4ESzotlnqFDJD5jIoMX0KU7ww==
   </data>
  </layer>
  <layer name="Up Decorations" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJztzgENAAAIA6Dbv4sZjeGmkIAEAAAAAACAL7q2BwAAAMAFA1+AALA=
+   eJztzgENAAAIA6Dbv4sZjeH2QQISAAAAAAAA2u18DwAAAIAmB2T4ALA=
   </data>
  </layer>
  <layer name="Ground" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJztmVsSwiAMRdOlaXUhvhai/utKqnvSjYgfdTodHgFDIDR35vwqPYVA6AUALsqPJeXVAby70qPQaGTnblgZ1hZ6w63c0NjzdfE07Ax7CwfDA9pz4nr/Iydw+xigPSdnwO23cx9H8HuMRdr6s80RSqStPw4fktYflw8pTjh9cDnxnSdC5Pbxb32Orceh84R0Yurx6GJo3AdmnU1dLMFHyMm8XrjOm9LB1mPs+TNE6ecNYavHvcUHVUo/b+qcyRWKOcbNNYsJjUajkRVMrzXdT1P7Mt9v19JjY3ut6X5Kfe6u5X4qptfK7aP0XUxsr8Xhw+WEcm1iCfVaOX2E7mMo/4vyHebyIZEl+9iAvz+x9fHbCsbNMRewaXnOqA/1oT7URyop36tavTuvkQ+3p17e
+   eJztmVsSwiAMRdOlaXUh9bEQ67+upLon3Yj4UafT4REqJITmzpw/R+kpBII9APTKjzXl1QC8G+5RaDSyczdsDFsLreHGNzTyfF08DZ3hYOFoeEB9Tlzvf+QMbh8D1OfkArj9du7jBH6PsUhbf7Y5khJp64/Ch6T1R+VDihNKH1ROfOeJELl9/FufY+tx6DwhnZh6PLoYKveBWWdTF2vwEXIyrxeu86Z0sPUYe/4Mwf28IWz1uLX4SBXu5106Z3IlxRyj5prFhEaj0cgKptea7qdL+zLfd5fSY2N7rel+mvrcXcr9VEyvldsH911MbK9F4cPlJOXaxBLqtXL6CN3HpPytlO8wlw+JrNnHDvz9ia2P3xcwboq5gE2H/Bz3s6kP9VGKD+5xqw8alvxfVevdeYl8AOMxVIg=
   </data>
  </layer>
  <layer name="Superior" width="68" height="40">
@@ -47,7 +47,7 @@
  </layer>
  <layer name="Collisions" width="68" height="40" opacity="0.41">
   <data encoding="base64" compression="zlib">
-   eJztmNEOgyAMRVH//58XH1gsblg2emnhnqRvRslJbG/ZUkob612EENLCnuo95Rh3NDi78rnZnPSYLzM56eGj10yP4hWZPyI4Qecx705G5FPPTkbldWsnT3nC4/5i1Y+1eSI6GieruMjUnKzmIvPNycp3F5+crHwfZHVu+ri/N2pZEPmfsYA+JPQhoQ/JCB/aXas8Y8+qZTqkD22mLn1YUMt0CFr2C4SPk9IJykfrroXycXJ14jU7IX3kb3ieLWgf3lnZx6/zdlb+7S+zQR8S+pDQh4Q+JJ7ux8idF/NaAZY=
+   eJztmEsOgzAMBQO9/50rFqnqtA1O8Re/kbyDEI2E/ZKttbahXgUAACvsbd5THn5bM2dnPnc3JxLz5U5OJHxIzfQsXi3zRwYn1nksuhOPfBrZiVde13Zylicinl+0+jE3T2SH46SKi87MSTUXnV9OKt9dfHNS+T5Ia9/w8blu1tIg8z+jAXxQ4IMCHxQPH9yz1rhHyZplOksf3Ew9+tBgluksWDlfWPg4GJ1Y+Vg9a1n5OHh3EjU7Wfro34g8W6x9RKeyD+15m42r/UV6bW/ggwIflH99oH9ceycLVeZGVp5zrQGt
   </data>
  </layer>
  <objectgroup draworder="topdown" name="Objects" width="68" height="40" opacity="0.9">
@@ -163,7 +163,7 @@
   <object name="Door" type="Teleporters" x="272" y="416" width="32" height="48">
    <properties>
     <property name="id" value="1"/>
-    <property name="locked" value="mansion-entrance-diningroom-key"/>
+    <property name="locked" value="mansion-diningroom-key"/>
     <property name="to_id" value="0"/>
     <property name="to_map" value="mansion-diningroom"/>
    </properties>
@@ -184,7 +184,7 @@
   <object name="Door" type="Teleporters" x="960" y="144" width="32" height="48">
    <properties>
     <property name="id" value="2"/>
-    <property name="locked" value="mansion-entrance-spartan-treasure-key"/>
+    <property name="locked" value="mansion-ancienthero-key"/>
     <property name="to_id" value="0"/>
     <property name="to_map" value="mansion-ancienthero"/>
    </properties>
@@ -261,6 +261,56 @@
     <property name="id" value="4"/>
     <property name="to_id" value="3"/>
     <property name="to_map" value="mansion-entrance"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="104" y="432" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="104" y="448" width="16" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="32" y="452" width="64" height="10"/>
+  <object name="TroughPlatform" type="Collisions" x="128" y="452" width="32" height="10"/>
+  <object name="TroughPlatform" type="Collisions" x="576" y="384" width="32" height="16">
+   <properties>
+    <property name="solid" value="1"/>
+   </properties>
+  </object>
+  <object name="Chest" type="Collectables" gid="429" x="672" y="608">
+   <properties>
+    <property name="contains" value="coins"/>
+    <property name="count" value="42"/>
+    <property name="name" value="mansion-entrance-secret-area-coin-chest"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="656" y="528" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="576" y="528" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="600" y="592" width="16" height="16">
+   <properties>
+    <property name="solid" value="1"/>
+   </properties>
+  </object>
+  <object name="Chest" type="Collectables" gid="429" x="840" y="560">
+   <properties>
+    <property name="contains" value="key"/>
+    <property name="name" value="mansion-entrance-secret-area-garden-secret-key-chest"/>
+    <property name="value" value="mansion-garden-secret-key"/>
+   </properties>
+  </object>
+  <object name="Door" type="Teleporters" x="272" y="80" width="32" height="48">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="locked" value="mansion-garden-secret-key"/>
+    <property name="to_id" value="0"/>
+    <property name="to_map" value="mansion-garden-secret"/>
    </properties>
   </object>
  </objectgroup>

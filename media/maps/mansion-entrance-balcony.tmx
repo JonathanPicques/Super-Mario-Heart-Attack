@@ -86,8 +86,8 @@
   <object name="Chest" type="Gameplay" gid="429" x="448" y="208">
    <properties>
     <property name="contains" value="key"/>
-    <property name="name" value="mansion-entrance-balcony-spartan-treasure"/>
-    <property name="value" value="mansion-entrance-spartan-treasure-key"/>
+    <property name="name" value="mansion-entrance-balcony-mansion-ancienthero-chest"/>
+    <property name="value" value="mansion-ancienthero-key"/>
    </properties>
   </object>
   <object name="ConeLight" type="Decorations" x="624" y="128" width="16" height="16">

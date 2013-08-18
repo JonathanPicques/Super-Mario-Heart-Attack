@@ -55,7 +55,7 @@
   <object name="Door" type="Teleporters" x="48" y="160" width="32" height="48">
    <properties>
     <property name="id" value="0"/>
-    <property name="to_id" value="0"/>
+    <property name="to_id" value="2"/>
     <property name="to_map" value="mansion-entrance"/>
    </properties>
   </object>

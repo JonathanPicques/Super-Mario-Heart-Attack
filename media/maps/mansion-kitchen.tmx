@@ -83,7 +83,7 @@
    <properties>
     <property name="contains" value="key"/>
     <property name="name" value="mansion-kitchen-diningroom-key"/>
-    <property name="value" value="mansion-entrance-diningroom-key"/>
+    <property name="value" value="mansion-diningroom-key"/>
    </properties>
   </object>
   <object name="TroughPlatform" type="Collisions" x="464" y="112" width="16" height="16"/>

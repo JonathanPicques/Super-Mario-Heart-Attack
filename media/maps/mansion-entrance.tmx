@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="68" height="31" tilewidth="16" tileheight="16">
+<map version="1.0" orientation="orthogonal" width="68" height="40" tilewidth="16" tileheight="16">
  <properties>
   <property name="music" value="the_mansion"/>
   <property name="music_loop" value="0"/>
@@ -10,47 +10,47 @@
  <tileset firstgid="65" name="mansion" tilewidth="16" tileheight="16">
   <image source="tiles/mansion.png" width="512" height="448"/>
  </tileset>
- <layer name="Background" width="68" height="31">
+ <layer name="Background" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt00kRhFAUxdBHNWCkASMM/j0w6OC6SKr4iyyOgJxVdaU7Pen8uH9dVZ+GNHbN/zSlOS3NtaYt7eloxn+1mf7VZvpXm+lfbaZ/tZn+1Wb6V5vpX22mf7WZ/tVm+leb6V9tpn+1mf7VZvpXm+lfbaZ/tZn+1Wb6V5vpX22mf7WZ/tVm+leb6V9tpn+1mf7VZvpXm18a18JJ
+   eJztk8kNwkAUxSZi7YOlEZZWoBPoDPoIWxm8C/fhgGyFeZL15VtGkftSyi3cwyP0f+6jrpRxmIRp13wRlmEV1s3LJmzDLuyb473anO7V5nSvNqd7tTndq83pXm1O92pzuleb073anO7V5nSvNqd7tTndq83pXm1O92pzuleb073anO7V5nSvNqd7tTndq83pXm1O92pzuleb073anO7V5nSvNrfuGV70R4g2y7+ai//XL3cJ1y/u0Pdpo/YOfZ82au/Qd8gbj139HfpOeeO5q79tbdTeBl/kDw==
   </data>
  </layer>
- <layer name="Down Decorations" width="68" height="31">
+ <layer name="Down Decorations" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAL4MIPAAAQ==
+   eJzt0DERADAIBEG0RUr8i6CA5jWwO3MGrgoAAAAAAADueRvjbww/kh/Jj+QHAMBNDZd6BFk=
   </data>
  </layer>
- <layer name="Decorations" width="68" height="31">
+ <layer name="Decorations" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt2EEKwjAQheFJ9CJqL29XKl6ivYXVg/hAELvTJDhk+D94y0nDkEIyZihxS2aLclceqb/6lM2yslG2+ff61ut51+9Us1cOytCgH7XredeXuP7nMwCAzhx1TxkL7ipRTerFTD/ePvvR012ip70CQFRn5eK9iSBqZ0zRtJ6ZeTrZ61+pUTNj4mytRTpbLXjML78x8oZdmXnDAmEwy0BkT3SqIp4=
+   eJzt2NsNwjAMhWG3sAiXYTpKNwP6BIgdgG7BZRAOQkLtW2miRjH/J/nRaWK5UmIzjHErzO6Kh+JZ5JdflGalYqaYl7/nx14vdf5COUvFSrGOUI/Q9VLnj3Ga5jMAgMzsdE9pRtxVvLqqFi31+OrWI6e7RE57BQCvDopj6k04ETpj8ib2zCylvX3+lRAhMyZ6q89Tb8Uw9fxyox7cDujD5k/esGed8TLgnC1vWMCNWLOMSlFHWsuD2qhHF/Xoe9eiSr0JAACACbwA6bMogA==
   </data>
  </layer>
- <layer name="Up Decorations" width="68" height="31">
+ <layer name="Up Decorations" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAL4MIPAAAQ==
+   eJztzgENAAAIA6Dbv4sZjeGmkIAEAAAAAACAL7q2BwAAAMAFA1+AALA=
   </data>
  </layer>
- <layer name="Ground" width="68" height="31">
+ <layer name="Ground" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJztmFsSgjAMRcPSlJX4Woj4rytB96QbMX7gOEwhrbR5lNyZ898emtC0A4DO+bKmPBuAVyO9Co/Hdm7IBtkGaJGr3NLY83HxQHbIPsABuUN9Tqa+/8AJpn30UJ+TM8T9b8c+jjDvMRVr9Rc6IzmxVn8cPizVH5cPK044fXA5mbtPUJT2sbQ/p/Zj6j5hnZR+PLjoK/cRU2e/Ltbgg3Iy7hdT903rxPbj2PsnhfR+KUL9uA34yBXp/f57Zkolxxnj5lLEhMfj8djKklkrB5repzTMWlrep7TMWhrepzTNWtQ8JFHDkrMW9R4jtS6tvAFlxpHV
+   eJztmVsSwiAMRdOlaXUhvhai/utKqnvSjYgfdTodHgFDIDR35vwqPYVA6AUALsqPJeXVAby70qPQaGTnblgZ1hZ6w63c0NjzdfE07Ax7CwfDA9pz4nr/Iydw+xigPSdnwO23cx9H8HuMRdr6s80RSqStPw4fktYflw8pTjh9cDnxnSdC5Pbxb32Orceh84R0Yurx6GJo3AdmnU1dLMFHyMm8XrjOm9LB1mPs+TNE6ecNYavHvcUHVUo/b+qcyRWKOcbNNYsJjUajkRVMrzXdT1P7Mt9v19JjY3ut6X5Kfe6u5X4qptfK7aP0XUxsr8Xhw+WEcm1iCfVaOX2E7mMo/4vyHebyIZEl+9iAvz+x9fHbCsbNMRewaXnOqA/1oT7URyop36tavTuvkQ+3p17e
   </data>
  </layer>
- <layer name="Superior" width="68" height="31">
+ <layer name="Superior" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAL4MIPAAAQ==
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
   </data>
  </layer>
- <layer name="High" width="68" height="31">
+ <layer name="High" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAL4MIPAAAQ==
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
   </data>
  </layer>
- <layer name="Collisions" width="68" height="31" opacity="0.41">
+ <layer name="Collisions" width="68" height="40" opacity="0.41">
   <data encoding="base64" compression="zlib">
-   eJzt2EsOgCAMRdGC+9+zozoQRQwtLe07CTMH5MbwK0RUMK4BAPBHpf6acthNbbk6+F20JhL7S6QmEj2k9vRIXaWgSQtNWmjS0m7ydZ7weH/RWo9HzxO7G2mSpQXrNcnWgr01yfx28dQk83vQrvPWotnD+r0y038NACBp5q4V7X3K05nauomnFsyqiccW7N4EZ6e95rraCY+ZAVE=
+   eJztmNEOgyAMRVH//58XH1gsblg2emnhnqRvRslJbG/ZUkob612EENLCnuo95Rh3NDi78rnZnPSYLzM56eGj10yP4hWZPyI4Qecx705G5FPPTkbldWsnT3nC4/5i1Y+1eSI6GieruMjUnKzmIvPNycp3F5+crHwfZHVu+ri/N2pZEPmfsYA+JPQhoQ/JCB/aXas8Y8+qZTqkD22mLn1YUMt0CFr2C4SPk9IJykfrroXycXJ14jU7IX3kb3ieLWgf3lnZx6/zdlb+7S+zQR8S+pDQh4Q+JJ7ux8idF/NaAZY=
   </data>
  </layer>
- <objectgroup draworder="topdown" name="Objects" width="68" height="31">
+ <objectgroup draworder="topdown" name="Objects" width="68" height="40" opacity="0.9">
   <object name="ClassicTeleporter" type="Teleporters" x="0" y="16" width="16" height="64">
    <properties>
     <property name="direction" value="left"/>
@@ -79,16 +79,8 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="160" y="48" width="64" height="16">
-   <properties>
-    <property name="flare" value="1"/>
-   </properties>
-  </object>
-  <object name="TroughPlatform" type="Collisions" x="416" y="48" width="64" height="16">
-   <properties>
-    <property name="flare" value="1"/>
-   </properties>
-  </object>
+  <object name="TroughPlatform" type="Collisions" x="160" y="48" width="64" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="416" y="48" width="64" height="16"/>
   <object name="SmallLight" type="Decorations" x="428" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
@@ -109,11 +101,7 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="672" y="48" width="64" height="16">
-   <properties>
-    <property name="flare" value="1"/>
-   </properties>
-  </object>
+  <object name="TroughPlatform" type="Collisions" x="672" y="48" width="64" height="16"/>
   <object name="SmallLight" type="Decorations" x="684" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
@@ -134,11 +122,7 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="928" y="32" width="64" height="16">
-   <properties>
-    <property name="flare" value="1"/>
-   </properties>
-  </object>
+  <object name="TroughPlatform" type="Collisions" x="928" y="32" width="64" height="16"/>
   <object name="SmallLight" type="Decorations" x="924" y="24" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
@@ -214,11 +198,7 @@
     <property name="text" value="door3-spartan-treasure-closed"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="880" y="144" width="32" height="16">
-   <properties>
-    <property name="flare" value="1"/>
-   </properties>
-  </object>
+  <object name="TroughPlatform" type="Collisions" x="880" y="144" width="32" height="16"/>
   <object name="SmallLight" type="Decorations" x="208" y="360" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
@@ -239,16 +219,8 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="160" y="368" width="64" height="16">
-   <properties>
-    <property name="flare" value="1"/>
-   </properties>
-  </object>
-  <object name="TroughPlatform" type="Collisions" x="1008" y="320" width="64" height="16">
-   <properties>
-    <property name="flare" value="1"/>
-   </properties>
-  </object>
+  <object name="TroughPlatform" type="Collisions" x="160" y="368" width="64" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="1008" y="320" width="64" height="16"/>
   <object name="SmallLight" type="Decorations" x="1060" y="312" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
@@ -269,19 +241,26 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="768" y="368" width="32" height="16">
+  <object name="TroughPlatform" type="Collisions" x="768" y="368" width="32" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="736" y="320" width="32" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="768" y="272" width="32" height="16"/>
+  <object name="TroughPlatform" type="Collisions" x="608" y="400" width="32" height="16">
    <properties>
-    <property name="flare" value="1"/>
+    <property name="solid" value="1"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="736" y="320" width="32" height="16">
+  <object name="Door" type="Teleporters" x="496" y="352" width="32" height="48">
    <properties>
-    <property name="flare" value="1"/>
+    <property name="hidden" value="1"/>
+    <property name="id" value="3"/>
+    <property name="to_id" value="0"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="768" y="272" width="32" height="16">
+  <object name="Door" type="Teleporters" x="544" y="560" width="32" height="48">
    <properties>
-    <property name="flare" value="1"/>
+    <property name="id" value="4"/>
+    <property name="to_id" value="3"/>
+    <property name="to_map" value="mansion-entrance"/>
    </properties>
   </object>
  </objectgroup>

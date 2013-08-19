@@ -307,7 +307,7 @@
   </object>
   <object name="Door" type="Teleporters" x="272" y="80" width="32" height="48">
    <properties>
-    <property name="id" value="4"/>
+    <property name="id" value="5"/>
     <property name="locked" value="mansion-garden-secret-key"/>
     <property name="to_id" value="0"/>
     <property name="to_map" value="mansion-garden-secret"/>

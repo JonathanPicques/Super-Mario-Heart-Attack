@@ -172,7 +172,7 @@
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="FallingTrap" type="Damages" x="96" y="16" width="32" height="16">
+  <object name="FallingTrap" type="Damages" x="592" y="16" width="32" height="16">
    <properties>
     <property name="direction" value="0"/>
    </properties>

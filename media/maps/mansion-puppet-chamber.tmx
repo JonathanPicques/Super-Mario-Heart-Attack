@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="64" height="10" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="music" value="the_mansion"/>
+  <property name="music_loop" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="collisions" tilewidth="16" tileheight="16">
+  <image source="tiles/collisions.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="mansion" tilewidth="16" tileheight="16">
+  <image source="tiles/mansion.png" width="512" height="448"/>
+ </tileset>
+ <layer name="Background" width="64" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztz8sRgjAUheHcEWkEsBGVQsKjEZXGQBsBqcPfHYuQVe5EBu/MtzjZ5Bxr9n02kJBdnnihx6Ccf3H/GzNGTMo51P7QUjHmgARH0cuxd7oU9DohQy66OfZWlyu9SpxxEd0ce+ualm4VajSil2PvXNPR7YY7HqKXv3/5btnJ9/a/bd4H2Huq5A==
+  </data>
+ </layer>
+ <layer name="Down Decorations" width="64" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwl4AnEGFHsOsFsGAngwIPw/GgYjDyD73WOA3TIQADn/j6aBkQU8kGjkPDDSwmEU0A8AAHCsCrU=
+  </data>
+ </layer>
+ <layer name="Decorations" width="64" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztkksKgzAURd+Ljlq7iGpH/azbgt2HbsPPqJ89eEAER0EySBrIgTO4mdwLeSKJPfQqMuCIk4bZ8Kb3g1/8ed6gRsRghrnx271yoPeIBZ48bzjTV2KFF0v3Sxdds40rvTe84yPQHyQSNmpu+anuOVYaXWyxU7f8jzSbrba3RJzMVRsj1Q==
+  </data>
+ </layer>
+ <layer name="Up Decorations" width="64" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEA8GQKAAAB
+  </data>
+ </layer>
+ <layer name="Ground" width="64" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgcAHiJgqxKxAnUYCp4QZyMAgkM1AOEin0PzXcQC6ght2NDJTFQzMV3EAuGMiwHwxg1P8jG4z6f2SDFCB2woKd0dQ54hDDpneo4Bw8GD1cUnGI4TNjsGMAWeVX+Q==
+  </data>
+ </layer>
+ <layer name="Superior" width="64" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEA8GQKAAAB
+  </data>
+ </layer>
+ <layer name="High" width="64" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEA8GQKAAAB
+  </data>
+ </layer>
+ <layer name="Collisions" width="64" height="10" opacity="0.41">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgYKQSpgRQyw3kuJlSt1PDDGq4YSDtHuj0QwkYSLsHAxj1/8gGo/4f2YDYMhmf2FDF5IbLYKi3qAEA6KoAjg==
+  </data>
+ </layer>
+ <objectgroup draworder="topdown" name="Objects" width="64" height="10">
+  <object name="Mario" type="Mario" x="48" y="96" width="16" height="32">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="128" y="136" width="48" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="208" y="136" width="48" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="324" y="48" width="24" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="292" y="120" width="24" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="356" y="120" width="24" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="420" y="120" width="24" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="484" y="120" width="24" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="548" y="120" width="8" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="388" y="48" width="24" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="452" y="48" width="24" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TriggerHurt" type="Damages" x="516" y="48" width="24" height="8">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="328" y="96" width="16" height="16">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="392" y="96" width="16" height="16">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="456" y="96" width="16" height="16">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="520" y="96" width="16" height="16">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="160" y="48" width="64" height="16"/>
+  <object name="MediumLight" type="Decorations" x="172" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="MediumLight" type="Decorations" x="196" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="MediumLight" type="Decorations" x="156" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="MediumLight" type="Decorations" x="208" y="40" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="688" y="28" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="736" y="28" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="MediumLight" type="Decorations" x="712" y="36" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="FallingTrap" type="Damages" x="64" y="16" width="32" height="16">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+  <object name="FallingTrap" type="Damages" x="96" y="16" width="32" height="16">
+   <properties>
+    <property name="direction" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

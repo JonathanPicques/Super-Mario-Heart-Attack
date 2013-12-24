@@ -118,5 +118,10 @@
     <property name="text" value="welcome"/>
    </properties>
   </object>
+  <object name="Water" type="Decorations" x="416" y="64" width="208" height="80">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

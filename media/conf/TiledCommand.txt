@@ -1,0 +1,1 @@
+"C:\Users\picque_j\Desktop\Stuff\Super Mario Heart Attack\Super Mario Heart Attack.exe" -M %mapfile

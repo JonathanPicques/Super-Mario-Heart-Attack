@@ -131,5 +131,12 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
+  <object name="Boo" type="Enemies" x="736" y="160" width="16" height="16">
+   <properties>
+    <property name="award" value="key"/>
+    <property name="award_value" value="prout"/>
+    <property name="name" value="Water Boo"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

@@ -47,7 +47,7 @@
  </layer>
  <layer name="Collisions" width="68" height="40" opacity="0.41">
   <data encoding="base64" compression="zlib">
-   eJztmMEOhCAMRFH//583HjALq1hWOrR2XtKbInmJdMqSUlpYRxFCSA9rap8p27ytwVmFz73NyYj+8iYnI3yM6ulevCLzhwcn6Dxm3cmMfGrZyay8ru3kLk9YnF+0zmNpnvCOxEkUF5mWk2guMldOIt9dnDmJfB+ktW/6+F3Xa2ng+Z/RgD5K6KOEPkpm+JDOWvUeR1Yr0yF9SDN17UODVqZD0DNfIHzs1E5QPnpnLZSPnW8nVrMT0kf+huXegvZhncg+tPutNzT3TB+4tbWgj5J/+zHPj2fveCFK3/DKB2KpAao=
+   eJztl8sOgCAMBFH//589mJiUg1CVLo+ZZM8uE6GwpZQ2cgcAwMOens+UQ1ctnJKLWZ38MXtmcqKe4yN6xYmF/8TC3rHMep7UztBR4/E3uwuPk1Vc1DhZzUXJibpXb07UndRpgXpN+BjDB1zgw4IPCz4sCh+198i8458p3emi8Nyp844RTiJ9eN8XeccIJ1E+3ry18o4RTlp/60tG6IgPfPSSlX20Qr0ufOCjBx/qvvgg5MoJnoQGJg==
   </data>
  </layer>
  <objectgroup draworder="topdown" name="Objects" width="68" height="40" opacity="0.9">

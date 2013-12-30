@@ -14,32 +14,32 @@
  </tileset>
  <layer name="Background" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJztz0ENADAMA7FgLX8QUxH0PcUnGcBNkgEAAIDD7zW/b83vW/P71vyu5AERdXHc
+   eJztj1ENgFAMAzucgBNwwnMCzsAJKGFTsA/SDPLa5HK/vQagCSGEEOJTHM5JdHVfxuXcRFf3ZZgBg/Fc3Zcx+sfJeK7uy5j942I8V/dlrPHReK7uy9j84248v/339/XcHuu5PdZze6zndg14ABTBeAA=
   </data>
  </layer>
  <layer name="Down Decorations" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAA8GoUAAAB
+   eJzt08EJADAIQ9GMp5t0/wl6KEIXKCnkP/BuiEoAAOAn65pEpZO93IuY0L/Uys0/t5+af7K3exGD+fvk/gEA72zdwwfz
   </data>
  </layer>
  <layer name="Decorations" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAA8GoUAAAB
+   eJxjYBgFo2AU+DMOtAsGFuSPcP/3j3D/jwLywDs86eYpUO4ZED8H4hdA/JKENDZQeqkJWJkYGNiAmB2IOYCYk2nw66UmUAXaqwbE6kCsAcSaJLhjoPSOAvqB9wPtgAEG5LQ5vgL1fBsmdTU5bQ5RYF4WQ8rP14FmXAbiK0gYxL8+TMJoFIyCUTAKRgFtAABAHByo
   </data>
  </layer>
  <layer name="Up Decorations" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAA8GoUAAAB
+   eJztzgENAAAIA6DbP6B1jOG+QQISAAAA2ux8DwBocVAqANk=
   </data>
  </layer>
  <layer name="Ground" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMJFKof6iDUf+PbDDq/5ENhrr/A4A4EIqDyNDfCMRNQxgXIuEiMvw/1MGo/0f9P+r/Uf+P+p88/2ci4Q4quoteYCISnkSi3n4gdgRipyGMyQUgv69ngLT/koYwpsTva0eg/5H9PtL8j+734eD/QBIwtrIudRD4gRIMAIW5ouw=
+   eJzt1kEOQDAQheFejROoG5BYWHIDVnbCPcQVjcRiIpLWtEH1veRfVnybpkq5raDKgHMd/O8b4IcfflkZpY9ygb+j+oBrWK3AH/rghx9++OGX+WvW4PG/ntrEmm+eHamESi3Thmy/4zPpdvuqwn//udiXCP3cHpv/bP+D33Qn8a7uuuoDBpc2PPgPZw==
   </data>
  </layer>
  <layer name="Superior" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJztwzENAAAIA7D594M/3mmANmkC8NNUAAAAuGoB3lUCIA==
+   eJztzrEJACAMBdGMKE6mriLZT0tJo4USMPfgmpDiiwBATLoEAABwWzfZ28/SwU9+vsJPmdVNzW0dgIgG7qwNUQ==
   </data>
  </layer>
  <layer name="High" width="64" height="20">
@@ -47,9 +47,9 @@
    eJztwQENAAAAwqD3T20PBxQAAAAA8GoUAAAB
   </data>
  </layer>
- <layer name="Collisions" width="64" height="20" opacity="0.41">
+ <layer name="Collisions" width="64" height="20" visible="0" opacity="0.41">
   <data encoding="base64" compression="zlib">
-   eJztlTEKADAIA7XQ/3+5u4NQFFtNDhwcBA/BiMTQ4Hx36I8N/bHp7q+movPdyrogQX+/nw79/X469M/Nv523WgnRey95n9+Z+X/rjgrdMZnoXvErfuYAOAMAmQ==
+   eJzt1cEJACAMQ9EouP/KzmBbDC0/0HueHiLlsppfNu7++PHjx+96D3dft79z8OPHjx9/zf6dumpfkv3vLf9eu/Z+gj3qn2KP+CfZX/3T7Jx0AehiAsQ=
   </data>
  </layer>
  <objectgroup draworder="topdown" name="Objects" width="64" height="20">
@@ -80,5 +80,56 @@
    </properties>
   </object>
   <object name="Water" type="Collisions" x="0" y="224" width="64" height="80"/>
+  <object name="MediumLight" type="Decorations" x="399" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="368" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="429" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="MediumLight" type="Decorations" x="639" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="608" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="669" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="MediumLight" type="Decorations" x="879" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="848" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="SmallLight" type="Decorations" x="909" y="144" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="784" y="208" width="80" height="16"/>
+  <object name="SmallLight" type="Decorations" x="256" y="112" width="16" height="16">
+   <properties>
+    <property name="flare" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

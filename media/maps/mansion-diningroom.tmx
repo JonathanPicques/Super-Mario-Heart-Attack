@@ -47,7 +47,7 @@
  </layer>
  <layer name="Collisions" width="32" height="10" opacity="0.41">
   <data encoding="base64" compression="zlib">
-   eJxjZGBgYBxgPFBg1P5R+0ftH5l5HwYA3BwATw==
+   eJxjZGBgYBxgPFBg1P5R+0ftH9kYAORcAG8=
   </data>
  </layer>
  <objectgroup draworder="topdown" name="Objects" width="32" height="10">

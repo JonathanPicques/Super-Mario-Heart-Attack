@@ -14,7 +14,7 @@
  </tileset>
  <layer name="Background" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt0MENACAMw8DM2v2HYAM+gKwWR7p/3UpSkiQNtBt9G9k+/S+no+8n2zv33xrdYb/9r/vpWyWJ8vsWZyykAg==
+   eJztz0ENADAMA7FgLX8QUxH0PcUnGcBNkgEAAIDD7zW/b83vW/P71vyu5AERdXHc
   </data>
  </layer>
  <layer name="Down Decorations" width="64" height="20">
@@ -24,7 +24,7 @@
  </layer>
  <layer name="Decorations" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJztz0EBACAMhdCZwCiLsihGMaoVjPEP8BJAFctLB4TtlS7Iavj/wP8P/P/C/yVJkiSJ6gO7UgKA
+   eJztwQENAAAAwqD3T20PBxQAAAAA8GoUAAAB
   </data>
  </layer>
  <layer name="Up Decorations" width="64" height="20">
@@ -34,12 +34,12 @@
  </layer>
  <layer name="Ground" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJztl0sKgDAMBXNEP6fozs8lulRPbLoTIUFoaLB5A7N/k10yxSax2XuEI4li3yA9jAj60d9z/8yOij33l/adXRWlu0wOey350q65tZ9sxkB17X/vX6iuHf3oj9J/Cl7NV9txkNz1FgAQF+03iOANkopb9g==
+   eJxjYKAMJFKof6iDUf+PbDDq/5ENhrr/A4A4EIqDyNDfCMRNQxgXIuEiMvw/1MGo/0f9P+r/Uf+P+p88/2ci4Q4quoteYCISnkSi3n4gdgRipyGMyQUgv69ngLT/koYwpsTva0eg/5H9PtL8j+734eD/QBIwtrIudRD4gRIMAIW5ouw=
   </data>
  </layer>
  <layer name="Superior" width="64" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt0DENAAAMw7Dy5zN+O3eNQGVLIZAEgGbzxPEFAABotimNBl4=
+   eJztwzENAAAIA7D594M/3mmANmkC8NNUAAAAuGoB3lUCIA==
   </data>
  </layer>
  <layer name="High" width="64" height="20">
@@ -49,50 +49,36 @@
  </layer>
  <layer name="Collisions" width="64" height="20" opacity="0.41">
   <data encoding="base64" compression="zlib">
-   eJzt1LEKACAIRVET+v9fbojGQikwn++AW4PXoS7Uoxf4QPUbtOgFgrG/NtR+ldm2mwWxXw1vLLfJyNJ+krn/xe7sz4v9vrdo/9+pCaWRiOiW569EnAFQQQCD
+   eJztlTEKADAIA7XQ/3+5u4NQFFtNDhwcBA/BiMTQ4Hx36I8N/bHp7q+movPdyrogQX+/nw79/X469M/Nv523WgnRey95n9+Z+X/rjgrdMZnoXvErfuYAOAMAmQ==
   </data>
  </layer>
  <objectgroup draworder="topdown" name="Objects" width="64" height="20">
+  <object name="Water" type="Collisions" x="64" y="208" width="192" height="96">
+   <properties>
+    <property name="top" value="1"/>
+   </properties>
+  </object>
+  <object name="ClassicTeleporter" type="Teleporters" x="0" y="224" width="16" height="80">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="id" value="0"/>
+    <property name="to_id" value="1"/>
+    <property name="to_map" value="mansion-garden-secret-pool"/>
+   </properties>
+  </object>
   <object name="Mario" type="Mario" x="16" y="272" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="Water" type="Collisions" x="0" y="224" width="112" height="80"/>
-  <object name="ClassicTeleporter" type="Teleporters" x="0" y="224" width="16" height="80">
+  <object name="ClassicTeleporter" type="Teleporters" x="0" y="0" width="16" height="96">
    <properties>
     <property name="direction" value="left"/>
-    <property name="id" value="0"/>
-    <property name="to_id" value="0"/>
-    <property name="to_map" value="mansion-garden-secret"/>
-   </properties>
-  </object>
-  <object name="Water" type="Collisions" x="112" y="144" width="736" height="160">
-   <properties>
-    <property name="top" value="1"/>
-   </properties>
-  </object>
-  <object name="Water" type="Collisions" x="848" y="224" width="176" height="80"/>
-  <object name="ConeLight" type="Decorations" x="960" y="16" width="16" height="16">
-   <properties>
-    <property name="flare" value="1"/>
-   </properties>
-  </object>
-  <object name="ClassicTeleporter" type="Teleporters" x="1008" y="224" width="16" height="80">
-   <properties>
-    <property name="direction" value="right"/>
     <property name="id" value="1"/>
-    <property name="to_id" value="0"/>
-    <property name="to_map" value="mansion-boo-garden"/>
+    <property name="to_id" value="2"/>
+    <property name="to_map" value="mansion-garden-secret-pool"/>
    </properties>
   </object>
-  <object name="ClassicTeleporter" type="Teleporters" x="1008" y="0" width="16" height="96">
-   <properties>
-    <property name="direction" value="right"/>
-    <property name="id" value="2"/>
-    <property name="to_id" value="1"/>
-    <property name="to_map" value="mansion-boo-garden"/>
-   </properties>
-  </object>
+  <object name="Water" type="Collisions" x="0" y="224" width="64" height="80"/>
  </objectgroup>
 </map>

@@ -66,7 +66,7 @@
     <property name="to_map" value="mansion-garden-secret-pool"/>
    </properties>
   </object>
-  <object name="Mario" type="Mario" x="16" y="272" width="16" height="32">
+  <object name="Mario" type="Mario" x="656" y="192" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>
@@ -131,8 +131,9 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="Boo" type="Enemies" x="736" y="160" width="16" height="16">
+  <object name="Boo" type="Enemies" x="736" y="176" width="16" height="16">
    <properties>
+    <property name="amplitude" value="32"/>
     <property name="award" value="key"/>
     <property name="award_value" value="prout"/>
     <property name="name" value="Water Boo"/>

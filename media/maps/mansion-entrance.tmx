@@ -32,12 +32,12 @@
  </layer>
  <layer name="Ground" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJztmVsSwiAMRdOlaXUhvhZi/deVVPekGxE/6tQOj1BDIDR35vwqPYVAaAcAnfJlSXk2AK8m9yg0Gtm5GVaGtYXWcM03NPZ8XDwMO8PewsFwh/qcuN7/wAncPnqoz8kZcPvt1McR/B5jkbb+bHOEEmnrj8OHpPXH5UOKE04fXE5854kQqX38W59j63HoPCGdmHo8uOgr94FZZ2MXS/ARcjKtF67zpnSw9Rh7/gyR+3lD2Opxa/FBldzPO3fOpArFHOPmksSERqPRyAqm1xrvp3P7Mt9vl9JjY3ut8X5Kfe4u5X4qptdK7SP3XUxsr8Xhw+WEcm1iCfVaKX2E7mMo/4vyHabyIZEl+9iAvz+x9fHbAsbNMReok/vZ1If6KMFHzTVWffwy53tVrXfnJfIGcFNTZQ==
+   eJztmNmxwjAMRZXSIFAIWyGEf6gk0BM0gvkIYzyyLRt5S3RnzufjKcerPADAIHxZUp4dwKsrXYVE0nZuipVijdArruVKy56Pi4dip9gjHBR3mJ8T2/hPnMDuY4T5OTkD7bw1fRzB7TGU1tYfNkc4aW395fDR0vrL5aMVJzl95HLiuk/4wL5hA7S9eGv5e51/9+fQ/dh3n4gdU0rMM4ziJ6YW6pyaXIyFfJjhrEGvhbLOdBdL8OFzYu4XtvtmDLFrnrMGzIfLCfX+6YO7fm6wsekRH1wp/b2xcyZVOOZYbi5JTEgkEklbofRa+nka25e5fruWHpvaa+nnKfedt5b3qZBeK7WP0m8xob1WDh82J5xrk4qvz0npw9ebcf4vzjFM5aNFluwDe5vU+xOsj0/xDlcLKXvV0t8mPsRHDT7mvMeKj19i3q5TvFsLOG+sAkWs
   </data>
  </layer>
  <layer name="Superior" width="68" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
+   eJztzjEBAAAIA6DZv4sZzeC1BxKQAAAtO+0BAAAAAAAAAAD8HRNvALA=
   </data>
  </layer>
  <layer name="High" width="68" height="40">
@@ -47,10 +47,10 @@
  </layer>
  <layer name="Collisions" width="68" height="40" opacity="0.41">
   <data encoding="base64" compression="zlib">
-   eJztl8sOgCAMBFH//589mJiUg1CVLo+ZZM8uE6GwpZQ2cgcAwMOens+UQ1ctnJKLWZ38MXtmcqKe4yN6xYmF/8TC3rHMep7UztBR4/E3uwuPk1Vc1DhZzUXJibpXb07UndRpgXpN+BjDB1zgw4IPCz4sCh+198i8458p3emi8Nyp844RTiJ9eN8XeccIJ1E+3ry18o4RTlp/60tG6IgPfPSSlX20Qr0ufOCjBx/qvvgg5MoJnoQGJg==
+   eJzt10sOgCAQA1DU+9/ZBYkRYuQj0w7YJl0zvqDgFkLY1KuKoigt2cP7N+XgjQZPyWJVkxFnz0omVmfyyq4oj1lMkB4zmKA9vJswPBAmtWdob++xXGeEn5VFTbyZWO6LnjBNkO+IF483E+Re9dYnE/ZM7FqE/UzymMNDiZFHGnmkkUcahkftPTKfcWRLdzpUWu7U+YwIE6RH6/9FPiPCBOXR86+Vz4gwsV7rS2eYUR7y8NI/e1iF/VzykIcHD/a88lDV2BPVogXx
   </data>
  </layer>
- <objectgroup draworder="topdown" name="Objects" width="68" height="40" opacity="0.9">
+ <objectgroup name="Objects" width="68" height="40" opacity="0.9">
   <object name="ClassicTeleporter" type="Teleporters" x="0" y="16" width="16" height="64">
    <properties>
     <property name="direction" value="left"/>
@@ -332,6 +332,32 @@
   <object name="SmallLight" type="Decorations" x="736" y="304" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
+   </properties>
+  </object>
+  <object name="TroughPlatform" type="Collisions" x="144" y="128" width="48" height="16">
+   <properties>
+    <property name="solid" value="1"/>
+   </properties>
+  </object>
+  <object name="Door" type="Teleporters" x="96" y="224" width="32" height="48">
+   <properties>
+    <property name="id" value="6"/>
+    <property name="to_id" value="7"/>
+    <property name="to_map" value="mansion-entrance"/>
+   </properties>
+  </object>
+  <object name="Door" type="Teleporters" x="144" y="80" width="32" height="48">
+   <properties>
+    <property name="hidden" value="1"/>
+    <property name="id" value="7"/>
+    <property name="to_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Chest" type="Collectables" gid="429" x="272" y="272">
+   <properties>
+    <property name="contains" value="coins"/>
+    <property name="count" value="42"/>
+    <property name="name" value="mansion-entrance-secret-area-coin-chest-first"/>
    </properties>
   </object>
  </objectgroup>

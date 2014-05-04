@@ -52,7 +52,7 @@
    eJzt1cEJACAMQ9EouP/KzmBbDC0/0HueHiLlsppfNu7++PHjx+96D3dft79z8OPHjx9/zf6dumpfkv3vLf9eu/Z+gj3qn2KP+CfZX/3T7Jx0AehiAsQ=
   </data>
  </layer>
- <objectgroup draworder="topdown" name="Objects" width="64" height="20">
+ <objectgroup name="Objects" width="64" height="20">
   <object name="Water" type="Collisions" x="64" y="208" width="192" height="96">
    <properties>
     <property name="top" value="1"/>

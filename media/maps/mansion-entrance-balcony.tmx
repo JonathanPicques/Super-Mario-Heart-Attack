@@ -50,7 +50,7 @@
    eJzt0iEOADAIQ1EQu/+VpyYnKIK/rE3qHykZEVksJSSLEvtn8+rfn/zmXzPMa6p+2gaKn7SB4idtoPopG6h+yg0dP+GGrt91N5ggATQ=
   </data>
  </layer>
- <objectgroup draworder="topdown" name="Objects" width="48" height="16">
+ <objectgroup name="Objects" width="48" height="16">
   <object name="ClassicTeleporter" type="Teleporters" x="0" y="16" width="16" height="48">
    <properties>
     <property name="direction" value="left"/>

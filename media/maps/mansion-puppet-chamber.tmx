@@ -50,7 +50,7 @@
    eJxjZGBgYBzFFIPB4AZywKj/B87uwQBG/T/q/1H/j1xASpmMT2wUD00MAEfkAOs=
   </data>
  </layer>
- <objectgroup draworder="topdown" name="Objects" width="64" height="10">
+ <objectgroup name="Objects" width="64" height="10">
   <object name="Mario" type="Mario" x="48" y="96" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>

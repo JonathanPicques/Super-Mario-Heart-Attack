@@ -52,7 +52,7 @@
    eJzt1cEJACAMQ9EouP/KzmBbDC0/0HueHiLlsppfNu7++PHjx+96D3dft79z8OPHjx9/zf6dumpfkv3vLf9eu/Z+gj3qn2KP+CfZX/3T7Jx0AehiAsQ=
   </data>
  </layer>
- <objectgroup name="Objects" width="64" height="20">
+ <objectgroup name="Objects">
   <object name="Water" type="Collisions" x="64" y="208" width="192" height="96">
    <properties>
     <property name="top" value="1"/>
@@ -66,7 +66,7 @@
     <property name="to_map" value="mansion-garden-secret-pool"/>
    </properties>
   </object>
-  <object name="Mario" type="Mario" x="656" y="192" width="16" height="32">
+  <object name="Player" type="Player" x="656" y="192" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>

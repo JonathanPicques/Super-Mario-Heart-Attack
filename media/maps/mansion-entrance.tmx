@@ -50,7 +50,7 @@
    eJzt10sOgCAQA1DU+9/ZBYkRYuQj0w7YJl0zvqDgFkLY1KuKoigt2cP7N+XgjQZPyWJVkxFnz0omVmfyyq4oj1lMkB4zmKA9vJswPBAmtWdob++xXGeEn5VFTbyZWO6LnjBNkO+IF483E+Re9dYnE/ZM7FqE/UzymMNDiZFHGnmkkUcahkftPTKfcWRLdzpUWu7U+YwIE6RH6/9FPiPCBOXR86+Vz4gwsV7rS2eYUR7y8NI/e1iF/VzykIcHD/a88lDV2BPVogXx
   </data>
  </layer>
- <objectgroup name="Objects" width="68" height="40" opacity="0.9">
+ <objectgroup name="Objects" opacity="0.9">
   <object name="ClassicTeleporter" type="Teleporters" x="0" y="16" width="16" height="64">
    <properties>
     <property name="direction" value="left"/>
@@ -313,7 +313,7 @@
     <property name="to_map" value="mansion-garden-secret"/>
    </properties>
   </object>
-  <object name="Mario" type="Mario" x="32" y="48" width="16" height="32">
+  <object name="Player" type="Player" x="32" y="48" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>

@@ -54,8 +54,8 @@
    eJxjZBi5gBEHHqlgNDxQwWh4oILR8EAFo+FBGOAKI2yYeYDcSE9ASniMhDAhNTyGe5iQEx6jeBSPVAwAaJUBGQ==
   </data>
  </layer>
- <objectgroup name="Objects" width="68" height="12">
-  <object name="Mario" type="Mario" x="976" y="112" width="16" height="32">
+ <objectgroup name="Objects">
+  <object name="Player" type="Player" x="976" y="112" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>

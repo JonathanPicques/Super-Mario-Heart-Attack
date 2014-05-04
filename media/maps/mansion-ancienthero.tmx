@@ -51,7 +51,7 @@
    eJzt00EKACAIRFGFuv+Vo0Vr3dgvVZitjwFVEdHCqTjdPfYmyHuk/+EH+/a8YtM+adM+adM+adM+adN+1H6Pna37MPZm7X5670yH3amXBVkUAUk=
   </data>
  </layer>
- <objectgroup name="Objects" width="63" height="15">
+ <objectgroup name="Objects">
   <object name="Door" type="Teleporters" x="48" y="160" width="32" height="48">
    <properties>
     <property name="id" value="0"/>
@@ -102,7 +102,7 @@
     <property name="name" value="ancienthero-coin-chest"/>
    </properties>
   </object>
-  <object name="Mario" type="Mario" x="96" y="176" width="16" height="32">
+  <object name="Player" type="Player" x="96" y="176" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>

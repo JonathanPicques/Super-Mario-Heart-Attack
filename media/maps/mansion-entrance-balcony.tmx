@@ -50,7 +50,7 @@
    eJzt0iEOADAIQ1EQu/+VpyYnKIK/rE3qHykZEVksJSSLEvtn8+rfn/zmXzPMa6p+2gaKn7SB4idtoPopG6h+yg0dP+GGrt91N5ggATQ=
   </data>
  </layer>
- <objectgroup name="Objects" width="48" height="16">
+ <objectgroup name="Objects">
   <object name="ClassicTeleporter" type="Teleporters" x="0" y="16" width="16" height="48">
    <properties>
     <property name="direction" value="left"/>
@@ -102,7 +102,7 @@
     <property name="name" value="mansion-entrance-balcony-coin-treasure"/>
    </properties>
   </object>
-  <object name="Mario" type="Mario" x="32" y="32" width="16" height="32">
+  <object name="Player" type="Player" x="32" y="32" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>

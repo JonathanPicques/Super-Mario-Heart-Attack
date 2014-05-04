@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="Decorations" color="#ffff00"/>
+ <objecttype name="Player" color="#00ff00"/>
+ <objecttype name="Damages" color="#ff0000"/>
+ <objecttype name="Teleporters" color="#0000ff"/>
+ <objecttype name="Collisions" color="#ffaaff"/>
+ <objecttype name="Gameplay" color="#ffaa00"/>
+</objecttypes>

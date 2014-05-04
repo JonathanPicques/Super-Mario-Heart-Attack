@@ -50,7 +50,7 @@
    eJxjZGBgYBxgPFBg1P5R+0ftH9kYAORcAG8=
   </data>
  </layer>
- <objectgroup name="Objects" width="32" height="10">
+ <objectgroup name="Objects">
   <object name="Door" type="Teleporters" x="32" y="80" width="32" height="48">
    <properties>
     <property name="id" value="0"/>
@@ -130,7 +130,7 @@
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="Mario" type="Mario" x="80" y="96" width="16" height="32">
+  <object name="Player" type="Player" x="80" y="96" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>

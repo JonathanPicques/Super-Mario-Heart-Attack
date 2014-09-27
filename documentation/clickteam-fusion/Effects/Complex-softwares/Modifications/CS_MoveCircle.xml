@@ -1,0 +1,32 @@
+<effect>
+<name>Movement: Circle</name>
+<description>Under water distortion effect</description>
+<author>Sphax - Flavien Clermont</author>
+<company>Complex-softwares</company>
+<website>http://complex.softwares.free.fr</website>
+<parameter>
+		<name>Timer</name>
+		<code>fTimer</code>
+		<description>Timer</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Power X</name>
+		<code>fPowerX</code>
+		<description>Power X effect</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.1</value>
+</parameter>
+<parameter>
+		<name>Power Y</name>
+		<code>fPowerY</code>
+		<description>Power Y effect</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.1</value>
+</parameter>
+</effect>
+

@@ -29,6 +29,12 @@ Requisites
 ==========
 
 - You'll need to own Clickteam Fusion 2.5 to open this example: http://www.clickteam.com/clickteam-fusion-2-5
-- You'll need to copy all the content of ``` the resources/clickteam-fusion ``` folder to your Clickteam Fusion 2.5 folder
+- You'll need to copy all the content of the ``` resources/clickteam-fusion ``` folder to your Clickteam Fusion 2.5 folder
 - Open the ``` Super Mario Heart Attack.mfa ``` with CF2.5, if asked about missing extensions, look for them in the Extension Manager
 - You're good to go
+
+
+Stuff
+=====
+
+This project is not affiliated with Nintendo.

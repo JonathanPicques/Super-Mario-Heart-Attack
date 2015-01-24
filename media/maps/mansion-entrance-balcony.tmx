@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="48" height="16" tilewidth="16" tileheight="16">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="48" height="16" tilewidth="16" tileheight="16" nextobjectid="14">
  <properties>
   <property name="music" value="outside"/>
   <property name="music_loop" value="0"/>
@@ -51,58 +51,57 @@
   </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="ClassicTeleporter" type="Teleporters" x="0" y="16" width="16" height="48">
+  <object id="1" name="ClassicTeleporter" type="Teleporters" x="0" y="16" width="16" height="48">
    <properties>
     <property name="direction" value="left"/>
-    <property name="id" value="0"/>
-    <property name="to_id" value="1"/>
+    <property name="to_id" value="27"/>
     <property name="to_map" value="mansion-entrance"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="192" y="16" width="16" height="16">
+  <object id="2" name="SmallLight" type="Decorations" x="192" y="16" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="128" y="16" width="16" height="16">
+  <object id="3" name="SmallLight" type="Decorations" x="128" y="16" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="Text" type="Gameplay" x="48" y="48" width="16" height="16">
+  <object id="4" name="Text" type="Gameplay" x="48" y="48" width="16" height="16">
    <properties>
     <property name="text" value="landslide"/>
    </properties>
   </object>
-  <object name="TorchLight" type="Decorations" x="368" y="144" width="16" height="64"/>
-  <object name="TorchLight" type="Decorations" x="432" y="144" width="16" height="64"/>
-  <object name="SmallLight" type="Decorations" x="368" y="160" width="16" height="16"/>
-  <object name="SmallLight" type="Decorations" x="432" y="160" width="16" height="16"/>
-  <object name="Text" type="Gameplay" x="400" y="192" width="16" height="16">
+  <object id="5" name="TorchLight" type="Decorations" x="368" y="144" width="16" height="64"/>
+  <object id="6" name="TorchLight" type="Decorations" x="432" y="144" width="16" height="64"/>
+  <object id="7" name="SmallLight" type="Decorations" x="368" y="160" width="16" height="16"/>
+  <object id="8" name="SmallLight" type="Decorations" x="432" y="160" width="16" height="16"/>
+  <object id="9" name="Text" type="Gameplay" x="400" y="192" width="16" height="16">
    <properties>
     <property name="text" value="spartan"/>
    </properties>
   </object>
-  <object name="Chest" type="Gameplay" gid="429" x="448" y="208">
+  <object id="10" name="Chest" type="Gameplay" gid="429" x="448" y="208">
    <properties>
     <property name="contains" value="key"/>
     <property name="name" value="mansion-entrance-balcony-mansion-ancienthero-chest"/>
     <property name="value" value="mansion-ancienthero-key"/>
    </properties>
   </object>
-  <object name="ConeLight" type="Decorations" x="624" y="128" width="16" height="16">
+  <object id="11" name="ConeLight" type="Decorations" x="624" y="128" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="Chest" type="Gameplay" gid="429" x="640" y="208">
+  <object id="12" name="Chest" type="Gameplay" gid="429" x="640" y="208">
    <properties>
     <property name="contains" value="coins"/>
     <property name="count" value="42"/>
     <property name="name" value="mansion-entrance-balcony-coin-treasure"/>
    </properties>
   </object>
-  <object name="Player" type="Player" x="32" y="32" width="16" height="32">
+  <object id="13" name="Player" type="Player" x="32" y="32" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>

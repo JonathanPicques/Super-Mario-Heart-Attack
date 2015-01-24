@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="68" height="40" tilewidth="16" tileheight="16" nextobjectid="70">
+ <properties>
+  <property name="music" value="the_mansion"/>
+  <property name="music_loop" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="collisions" tilewidth="16" tileheight="16">
+  <image source="tiles/collisions.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="mansion" tilewidth="16" tileheight="16">
+  <image source="tiles/mansion.png" width="512" height="448"/>
+ </tileset>
+ <layer name="Background" width="68" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
+  </data>
+ </layer>
+ <layer name="Down Decorations" width="68" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
+  </data>
+ </layer>
+ <layer name="Decorations" width="68" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
+  </data>
+ </layer>
+ <layer name="Up Decorations" width="68" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
+  </data>
+ </layer>
+ <layer name="Ground" width="68" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
+  </data>
+ </layer>
+ <layer name="Superior" width="68" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
+  </data>
+ </layer>
+ <layer name="High" width="68" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAwG8qgAAB
+  </data>
+ </layer>
+ <layer name="Collisions" width="68" height="40" opacity="0.41">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6DOv+kp6N8DEhIAANhxIwEAAAAAAACA7gFduAAj
+  </data>
+ </layer>
+ <objectgroup name="Objects" opacity="0.9">
+  <object id="69" name="ClassicTeleporter" type="Teleporters" x="0" y="32" width="16" height="128">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="to_id" value="67"/>
+    <property name="to_map" value="mansion-entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

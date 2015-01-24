@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="32" height="10" tilewidth="16" tileheight="16">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="10" tilewidth="16" tileheight="16" nextobjectid="19">
  <properties>
   <property name="music" value="the_mansion"/>
   <property name="music_loop" value="0"/>
@@ -51,86 +51,85 @@
   </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="Door" type="Teleporters" x="32" y="80" width="32" height="48">
+  <object id="1" name="Door" type="Teleporters" x="32" y="80" width="32" height="48">
    <properties>
-    <property name="id" value="0"/>
-    <property name="to_id" value="1"/>
+    <property name="to_id" value="25"/>
     <property name="to_map" value="mansion-entrance"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="48" y="48" width="64" height="16"/>
-  <object name="TroughPlatform" type="Collisions" x="400" y="48" width="64" height="16"/>
-  <object name="SmallLight" type="Decorations" x="84" y="40" width="16" height="16">
+  <object id="2" name="TroughPlatform" type="Collisions" x="48" y="48" width="64" height="16"/>
+  <object id="3" name="TroughPlatform" type="Collisions" x="400" y="48" width="64" height="16"/>
+  <object id="4" name="SmallLight" type="Decorations" x="84" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="96" y="40" width="16" height="16">
+  <object id="5" name="SmallLight" type="Decorations" x="96" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="44" y="40" width="16" height="16">
+  <object id="6" name="SmallLight" type="Decorations" x="44" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="60" y="40" width="16" height="16">
+  <object id="7" name="SmallLight" type="Decorations" x="60" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="436" y="40" width="16" height="16">
+  <object id="8" name="SmallLight" type="Decorations" x="436" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="448" y="40" width="16" height="16">
+  <object id="9" name="SmallLight" type="Decorations" x="448" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="396" y="40" width="16" height="16">
+  <object id="10" name="SmallLight" type="Decorations" x="396" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="412" y="40" width="16" height="16">
+  <object id="11" name="SmallLight" type="Decorations" x="412" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="MediumLight" type="Decorations" x="256" y="48" width="16" height="16">
+  <object id="12" name="MediumLight" type="Decorations" x="256" y="48" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="225" y="48" width="16" height="16">
+  <object id="13" name="SmallLight" type="Decorations" x="225" y="48" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="286" y="48" width="16" height="16">
+  <object id="14" name="SmallLight" type="Decorations" x="286" y="48" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="176" y="112" width="176" height="16">
+  <object id="15" name="TroughPlatform" type="Collisions" x="176" y="112" width="176" height="16">
    <properties>
     <property name="solid" value="1"/>
    </properties>
   </object>
-  <object name="Candle" type="Decorations" x="192" y="96" width="16" height="16">
+  <object id="16" name="Candle" type="Decorations" x="192" y="96" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="Candle" type="Decorations" x="320" y="96" width="16" height="16">
+  <object id="17" name="Candle" type="Decorations" x="320" y="96" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="Player" type="Player" x="80" y="96" width="16" height="32">
+  <object id="18" name="Player" type="Player" x="80" y="96" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>

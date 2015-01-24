@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="64" height="10" tilewidth="16" tileheight="16">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="10" tilewidth="16" tileheight="16" nextobjectid="27">
  <properties>
   <property name="music" value="the_mansion"/>
   <property name="music_loop" value="0"/>
@@ -51,128 +51,128 @@
   </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="Player" type="Player" x="48" y="96" width="16" height="32">
+  <object id="1" name="Player" type="Player" x="48" y="96" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="128" y="136" width="48" height="8">
+  <object id="2" name="TriggerHurt" type="Damages" x="128" y="136" width="48" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="208" y="136" width="48" height="8">
+  <object id="3" name="TriggerHurt" type="Damages" x="208" y="136" width="48" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="324" y="48" width="24" height="8">
+  <object id="4" name="TriggerHurt" type="Damages" x="324" y="48" width="24" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="292" y="120" width="24" height="8">
+  <object id="5" name="TriggerHurt" type="Damages" x="292" y="120" width="24" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="356" y="120" width="24" height="8">
+  <object id="6" name="TriggerHurt" type="Damages" x="356" y="120" width="24" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="420" y="120" width="24" height="8">
+  <object id="7" name="TriggerHurt" type="Damages" x="420" y="120" width="24" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="484" y="120" width="24" height="8">
+  <object id="8" name="TriggerHurt" type="Damages" x="484" y="120" width="24" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="548" y="120" width="8" height="8">
+  <object id="9" name="TriggerHurt" type="Damages" x="548" y="120" width="8" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="388" y="48" width="24" height="8">
+  <object id="10" name="TriggerHurt" type="Damages" x="388" y="48" width="24" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="452" y="48" width="24" height="8">
+  <object id="11" name="TriggerHurt" type="Damages" x="452" y="48" width="24" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TriggerHurt" type="Damages" x="516" y="48" width="24" height="8">
+  <object id="12" name="TriggerHurt" type="Damages" x="516" y="48" width="24" height="8">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="328" y="96" width="16" height="16">
+  <object id="13" name="SmallLight" type="Decorations" x="328" y="96" width="16" height="16">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="392" y="96" width="16" height="16">
+  <object id="14" name="SmallLight" type="Decorations" x="392" y="96" width="16" height="16">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="456" y="96" width="16" height="16">
+  <object id="15" name="SmallLight" type="Decorations" x="456" y="96" width="16" height="16">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="520" y="96" width="16" height="16">
+  <object id="16" name="SmallLight" type="Decorations" x="520" y="96" width="16" height="16">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="160" y="48" width="64" height="16"/>
-  <object name="MediumLight" type="Decorations" x="172" y="40" width="16" height="16">
+  <object id="17" name="TroughPlatform" type="Collisions" x="160" y="48" width="64" height="16"/>
+  <object id="18" name="MediumLight" type="Decorations" x="172" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="MediumLight" type="Decorations" x="196" y="40" width="16" height="16">
+  <object id="19" name="MediumLight" type="Decorations" x="196" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="MediumLight" type="Decorations" x="156" y="40" width="16" height="16">
+  <object id="20" name="MediumLight" type="Decorations" x="156" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="MediumLight" type="Decorations" x="208" y="40" width="16" height="16">
+  <object id="21" name="MediumLight" type="Decorations" x="208" y="40" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="688" y="28" width="16" height="16">
+  <object id="22" name="SmallLight" type="Decorations" x="688" y="28" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="736" y="28" width="16" height="16">
+  <object id="23" name="SmallLight" type="Decorations" x="736" y="28" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="MediumLight" type="Decorations" x="712" y="36" width="16" height="16">
+  <object id="24" name="MediumLight" type="Decorations" x="712" y="36" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="FallingTrap" type="Damages" x="64" y="16" width="32" height="16">
+  <object id="25" name="FallingTrap" type="Damages" x="64" y="16" width="32" height="16">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="FallingTrap" type="Damages" x="592" y="16" width="32" height="16">
+  <object id="26" name="FallingTrap" type="Damages" x="592" y="16" width="32" height="16">
    <properties>
     <property name="direction" value="0"/>
    </properties>

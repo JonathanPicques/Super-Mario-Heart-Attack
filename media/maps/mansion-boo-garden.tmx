@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="64" height="20" tilewidth="16" tileheight="16">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="20" tilewidth="16" tileheight="16" nextobjectid="18">
  <properties>
   <property name="music" value="outside"/>
   <property name="music_loop" value="0"/>
@@ -53,85 +53,83 @@
   </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="Water" type="Collisions" x="64" y="208" width="192" height="96">
+  <object id="1" name="Water" type="Collisions" x="64" y="208" width="192" height="96">
    <properties>
     <property name="top" value="1"/>
    </properties>
   </object>
-  <object name="ClassicTeleporter" type="Teleporters" x="0" y="224" width="16" height="80">
+  <object id="2" name="ClassicTeleporter" type="Teleporters" x="0" y="224" width="16" height="80">
    <properties>
     <property name="direction" value="left"/>
-    <property name="id" value="0"/>
-    <property name="to_id" value="1"/>
+    <property name="to_id" value="7"/>
     <property name="to_map" value="mansion-garden-secret-pool"/>
    </properties>
   </object>
-  <object name="Player" type="Player" x="656" y="192" width="16" height="32">
+  <object id="3" name="Player" type="Player" x="656" y="192" width="16" height="32">
    <properties>
     <property name="direction" value="0"/>
    </properties>
   </object>
-  <object name="ClassicTeleporter" type="Teleporters" x="0" y="0" width="16" height="96">
+  <object id="4" name="ClassicTeleporter" type="Teleporters" x="0" y="0" width="16" height="96">
    <properties>
     <property name="direction" value="left"/>
-    <property name="id" value="1"/>
-    <property name="to_id" value="2"/>
+    <property name="to_id" value="8"/>
     <property name="to_map" value="mansion-garden-secret-pool"/>
    </properties>
   </object>
-  <object name="Water" type="Collisions" x="0" y="224" width="64" height="80"/>
-  <object name="MediumLight" type="Decorations" x="399" y="144" width="16" height="16">
+  <object id="5" name="Water" type="Collisions" x="0" y="224" width="64" height="80"/>
+  <object id="6" name="MediumLight" type="Decorations" x="399" y="144" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="368" y="144" width="16" height="16">
+  <object id="7" name="SmallLight" type="Decorations" x="368" y="144" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="429" y="144" width="16" height="16">
+  <object id="8" name="SmallLight" type="Decorations" x="429" y="144" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="MediumLight" type="Decorations" x="639" y="144" width="16" height="16">
+  <object id="9" name="MediumLight" type="Decorations" x="639" y="144" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="608" y="144" width="16" height="16">
+  <object id="10" name="SmallLight" type="Decorations" x="608" y="144" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="669" y="144" width="16" height="16">
+  <object id="11" name="SmallLight" type="Decorations" x="669" y="144" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="MediumLight" type="Decorations" x="879" y="144" width="16" height="16">
+  <object id="12" name="MediumLight" type="Decorations" x="879" y="144" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="848" y="144" width="16" height="16">
+  <object id="13" name="SmallLight" type="Decorations" x="848" y="144" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="SmallLight" type="Decorations" x="909" y="144" width="16" height="16">
+  <object id="14" name="SmallLight" type="Decorations" x="909" y="144" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="TroughPlatform" type="Collisions" x="784" y="208" width="80" height="16"/>
-  <object name="SmallLight" type="Decorations" x="256" y="112" width="16" height="16">
+  <object id="15" name="TroughPlatform" type="Collisions" x="784" y="208" width="80" height="16"/>
+  <object id="16" name="SmallLight" type="Decorations" x="256" y="112" width="16" height="16">
    <properties>
     <property name="flare" value="1"/>
    </properties>
   </object>
-  <object name="Boo" type="Enemies" x="736" y="176" width="16" height="16">
+  <object id="17" name="Boo" type="Enemies" x="736" y="176" width="16" height="16">
    <properties>
     <property name="amplitude" value="32"/>
     <property name="award" value="key"/>
